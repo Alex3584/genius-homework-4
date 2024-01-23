@@ -1,0 +1,32 @@
+.about-us-section {
+  padding: 0;
+
+  &__container {
+    display: flex;
+    width: 100%;
+    max-width: 1240px;
+    justify-content: space-between;
+    gap: 40px;
+    position: relative;
+  }
+
+  &__content {
+    max-width: 700px;
+  }
+
+  &__title {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 1.7;
+    margin-top: 40px;
+  }
+
+  &__text .brand {
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+}

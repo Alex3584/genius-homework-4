@@ -1,0 +1,17 @@
+.why-us-section {
+  &__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 56px;
+  }
+
+  &__item {
+    flex-basis: calc((100% - 112px) / 3);
+  }
+}

@@ -1,0 +1,14 @@
+.section {
+  padding: 48px 0;
+
+  &__title {
+    font-family: Play, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 48px;
+
+    &--centered {
+      text-align: center;
+    }
+  }
+}

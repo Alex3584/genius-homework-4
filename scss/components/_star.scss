@@ -1,0 +1,34 @@
+.star-icon {
+  position: absolute;
+  animation: rotateAndScale 2s infinite linear;
+
+  &__star-1 {
+    top: 336px;
+    right: 305px;
+    fill: var(--beauty-star-1);
+  }
+
+  &__star-2 {
+    top: 32px;
+    right: -20px;
+    fill: var(--beauty-brand-light);
+  }
+
+  &__star-3 {
+    top: 270px;
+    right: 10px;
+    fill: var(--copyright-text);
+  }
+}
+
+@keyframes rotateAndScale {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(1.5);
+  }
+  100% {
+    transform: rotate(360deg) scale(1);
+  }
+}

@@ -1,0 +1,24 @@
+.carousel-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  fill: var(--beauty-brand-dark);
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid var(--beauty-brand-dark);
+  cursor: pointer;
+  transition: background-color 0.2s, fill 0.2s;
+}
+
+.carousel-button:hover {
+  background-color: var(--beauty-brand-light);
+  fill: var(--beauty-landing-additional);
+}
+
+.carousel-button.next {
+  transform: rotate(180deg);
+}

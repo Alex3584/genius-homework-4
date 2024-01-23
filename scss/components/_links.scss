@@ -1,0 +1,10 @@
+.link {
+  color: var(--beauty-brand-dark);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.link:hover {
+  color: var(--beauty-brand-light);
+  /*font-weight: 700;*/
+}

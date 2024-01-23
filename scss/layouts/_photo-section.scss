@@ -1,0 +1,17 @@
+.photo-section {
+  display: block;
+  width: 500px;
+  height: 695px;
+
+  &__photo {
+    position: absolute;
+    width: 327px;
+    height: 327px;
+    border-radius: 327px;
+  }
+
+  &__photo.after {
+    bottom: 0;
+    right: 0;
+  }
+}

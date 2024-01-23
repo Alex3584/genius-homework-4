@@ -1,0 +1,34 @@
+.input {
+  position: relative;
+
+  &__label {
+    position: absolute;
+    top: 18px;
+    left: 32px;
+  }
+
+  &__control {
+    padding: 18px 32px;
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.17;
+    border: 2px solid var(--copyright-text);
+    border-radius: 32px;
+    background-color: transparent;
+
+    &:focus {
+      background-color: var(--copyright-text);
+      outline: none;
+    }
+  }
+
+  &::placeholder {
+    color: var(--beauty-landing-additional);
+    font-size: 13px;
+  }
+
+  &:focus::placeholder {
+    background-color: var(--copyright-text);
+    outline: none;
+  }
+}
